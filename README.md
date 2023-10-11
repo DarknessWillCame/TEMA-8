@@ -25,7 +25,10 @@ my_animal = Animal('Sobaka', 7)
 
 print(my_animal.name)
 print(my_animal.weight)
+
 Результат.
+![Tema8_1](https://github.com/DarknessWillCame/TEMA-8/assets/46960566/69feba62-13df-4ac2-94ff-3f2e470555e3)
+
 Результат задания 1
 
 Выводы
@@ -47,8 +50,11 @@ my_animal = Animal('Sobaka', 7, 10)
 print(my_animal.name)
 print(my_animal.weight)
 my_animal.run()
+
 Результат.
-Результат задания 1
+![Tema8_2](https://github.com/DarknessWillCame/TEMA-8/assets/46960566/cc7a82e5-6210-4edb-b470-83749fc7e32b)
+
+Результат задания 2
 
 Выводы
 Я узнал, как для класса добавить аттрибуты speed и run(), которые выводят в консоль сообщение и сообщают о скорости передвижении
@@ -76,8 +82,11 @@ my_dog = Dog('Sobaka', 7, 10)
 print(my_dog.name)
 print(my_dog.weight)
 my_dog.arf()
+
 Результат.
-Результат задания 1
+![Tema8_3](https://github.com/DarknessWillCame/TEMA-8/assets/46960566/7351def7-7960-4ca5-ac1d-a13fb8a8fbce)
+
+Результат задания 3
 
 Выводы
 Наследование является мощным инструментом в ООП для переиспользования и композиции кода
@@ -104,8 +113,11 @@ class Dog(Animal):
 my_dog = Dog('Sobaka', 7, 10, 5)
 # print(my_dog.__tail_length) защищённый аттрибут
 my_dog.wag_tail()
+
 Результат.
-Результат задания 1
+![Tema8_4](https://github.com/DarknessWillCame/TEMA-8/assets/46960566/74b83436-cb84-436d-83cd-a4e281985879)
+
+Результат задания 4
 
 Выводы
 Инкапсуляция позволяет ограничить доступ к некоторым аттрибутам класса
@@ -129,8 +141,11 @@ my_cat = Cat()
 
 my_dog.make_noise()
 my_cat.make_noise()
+
 Результат.
-Результат задания 1
+![Tema8_5](https://github.com/DarknessWillCame/TEMA-8/assets/46960566/9563eb4b-366a-421c-bee1-638c686f111a)
+
+Результат задания 5
 
 Выводы
 Благодаря полиморфизму для разных классов у нас есть общий интерфейс
